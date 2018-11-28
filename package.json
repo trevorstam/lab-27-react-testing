@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "dotenv": "^6.1.0",
     "enzyme": "latest",
     "enzyme-adapter-react-16": "1.7.0",
     "react": "16.6.3",
@@ -26,5 +27,11 @@
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
